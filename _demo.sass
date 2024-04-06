@@ -1,33 +1,45 @@
 #demo
-    padding: 100px 0
-    .box
+    padding: 100px
+    .chat
+        border: solid 1px #a4caff
         background: #a4caff
         border-radius: 20px
-        padding: 10px 0
-        width: 220px
-        .data
-            h1
-                padding: 10px 0 20px
-                font-size: 36px
-                font-weight: 700
-                color: #ffff
-            h2
-                margin: 25px 0
-                font-size: 25px
+        width: 500px
+        height: 350px
+        .message
+            border: solid 1px white
+            background: white
+            overflow: auto
+            width: 450px
+            height: 250px
+            margin: 25px 0 0 25px
+            border-radius: 20px
+            .end
+                text-align: end
+            h3
+                display: inline-block
+                background: #7991e7
+                border-radius: 20px
                 color: #ffffff
-                display: flex
-                justify-content: center
-        .btn
-            font-size: 18px
-            background: #79afff
-            color: white
-            padding: 8px 50px
-            margin: 20px 0 15px 60px
-            width: 85px
-            border-radius: 20px
-            display: flex
-            justify-content: center
-        input
-            padding: 8px 0 8px 5px
-            border-radius: 20px
-            margin-left: 33px
+                word-wrap: break-word
+                margin: 10px
+                max-width: 50%
+                text-align: start
+                padding: 8px 7px
+        .text
+            input
+                margin: 20px 0 0 30px
+                padding: 6px 8px
+                width: 70%
+                border-radius: 20px
+            .sent
+                display: inline-block
+                h3
+                    background: #94a6e6
+                    display: flex
+                    color: #ffffff
+                    justify-content: center
+                    border-radius: 20px
+                    margin: 0 10px
+                    padding: 8px 35px
+                    width: 50px

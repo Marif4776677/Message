@@ -10,41 +10,55 @@ a:hover {
   color: black;
 }
 
-#weather {
-  padding: 100px 0;
+#demo {
+  padding: 100px;
 }
-#weather .box {
+#demo .chat {
+  border: solid 1px #a4caff;
   background: #a4caff;
   border-radius: 20px;
-  padding: 10px 0;
-  width: 220px;
+  width: 500px;
+  height: 350px;
 }
-#weather .box .data h1 {
-  padding: 10px 0 20px;
-  font-size: 36px;
-  font-weight: 700;
-  color: white;
+#demo .chat .message {
+  border: solid 1px white;
+  background: white;
+  overflow: auto;
+  width: 450px;
+  height: 250px;
+  margin: 25px 0 0 25px;
+  border-radius: 20px;
 }
-#weather .box .data h2 {
-  margin: 25px 0;
-  font-size: 25px;
+#demo .chat .message .end {
+  text-align: end;
+}
+#demo .chat .message h3 {
+  display: inline-block;
+  background: #7991e7;
+  border-radius: 20px;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
+  word-wrap: break-word;
+  margin: 10px;
+  max-width: 50%;
+  text-align: start;
+  padding: 8px 7px;
 }
-#weather .box .btn {
-  font-size: 18px;
-  background: #79afff;
-  color: white;
-  padding: 8px 50px;
-  margin: 20px 0 15px 60px;
-  width: 85px;
+#demo .chat .text input {
+  margin: 20px 0 0 30px;
+  padding: 6px 8px;
+  width: 70%;
   border-radius: 20px;
-  display: flex;
-  justify-content: center;
 }
-#weather .box input {
-  padding: 8px 0 8px 5px;
+#demo .chat .text .sent {
+  display: inline-block;
+}
+#demo .chat .text .sent h3 {
+  background: #94a6e6;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
   border-radius: 20px;
-  margin-left: 33px;
+  margin: 0 10px;
+  padding: 8px 35px;
+  width: 50px;
 }/*# sourceMappingURL=style.css.map */
