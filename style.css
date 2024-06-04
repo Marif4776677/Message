@@ -20,6 +20,9 @@ a:hover {
   width: 500px;
   height: 350px;
 }
+#demo .chat .message::-webkit-scrollbar {
+  display: none;
+}
 #demo .chat .message {
   border: solid 1px white;
   background: white;
