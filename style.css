@@ -14,8 +14,8 @@ a:hover {
   padding: 100px;
 }
 #demo .chat {
-  border: solid 1px #a4caff;
-  background: #a4caff;
+  border: solid 1px #e8edff;
+  background: #e8edff;
   border-radius: 20px;
   width: 500px;
   height: 350px;
@@ -43,10 +43,12 @@ a:hover {
   text-align: start;
   padding: 8px 7px;
 }
-#demo .chat .text input {
+#demo .chat .text {
   margin: 20px 0 0 30px;
+}
+#demo .chat .text input {
   padding: 6px 8px;
-  width: 70%;
+  width: 40%;
   border-radius: 20px;
 }
 #demo .chat .text .sent {
